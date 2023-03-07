@@ -13,10 +13,10 @@ function App() {
     <Router>
       <Header/>
       <Routes>
-        <Route exact path="/react-portfolio/" element={<AboutMe/>}/>
-        <Route exact path="/react-portfolio/portfolio" element={<Portfolio/>}/>
-        <Route exact path="/react-portfolio/contact" element={<Contact/>}/>
-        <Route exact path="/react-portfolio/resume" element={<Resume/>}/>
+        <Route exact path="my-react-portfolio/" element={<AboutMe/>}/>
+        <Route exact path="/my-react-portfolio/portfolio" element={<Portfolio/>}/>
+        <Route exact path="/my-react-portfolio/contact" element={<Contact/>}/>
+        <Route exact path="/my-react-portfolio/resume" element={<Resume/>}/>
       </Routes>
       <Footer/>
     </Router>

@@ -1,5 +1,5 @@
-// import React from 'react'
-// import './style.css'
+import React from 'react'
+import './style.css'
 
 const Projects = ({title, image, imageAlt, repo, url}) => {
     
@@ -7,7 +7,7 @@ const Projects = ({title, image, imageAlt, repo, url}) => {
         <div class="">
         <div class="">
             <h3 class="">{title}</h3>
-            <img src={require('./images/'+ image +'.png') || '#'} class="" alt={imageAlt} />
+            <img src={require('./Images/'+ image +'.png') || '#'} class="" alt={imageAlt} />
             <div class="card-body">
                 <a href={repo} class="btn btn-primary m-2 ">Github Repository</a>
                 <a href={url} class="btn btn-primary m-2 ">Deployed Application</a>

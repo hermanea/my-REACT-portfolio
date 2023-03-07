@@ -10,7 +10,7 @@ const Resume = () => {
                 <h2 className="">Resume</h2>
                 
                 <div className="">
-                    <a href={resume} target='_blank' download="resume" class="">Download My Resume</a>
+                    <a href={resume} target='_blank' download="Resume_Herman_Evan" class="">Download My Resume</a>
                 </div>
                 
                 <h2 className="">Front End Proficiencies</h2>
