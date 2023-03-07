@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 import './style.css'
-import { BsGithub, BsLinkedin }
+// import { BsGithub, BsLinkedin }
 
 const ContactMeForm = () => {
 
@@ -50,10 +50,10 @@ const ContactMeForm = () => {
                 <p id='alertText'>{alertText}</p>
                 <button onClick={handleFormSubmit} >Submit</button>
             </form>
-            <ul className="">
+            {/* <ul className="">
                     <li class="ms-3"><a  href="https://github.com/hermanea"><BsGithub size={20} color={'#ffc857'}/></a></li>
                     <li class="ms-3"><a  href="https://www.linkedin.com/in/evan-herman/"><BsLinkedin size={20} color={'#ffc857'}/></a></li>
-            </ul>
+            </ul> */}
         </div>
 
       )

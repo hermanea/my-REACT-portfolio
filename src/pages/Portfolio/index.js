@@ -1,8 +1,9 @@
-import 'style.css'
-import Projects from "../../compnents/Projects"
+import React from 'react'
+import './style.css'
+import Projects from '../../compnents/Projects'
 
 const Portfolio = () => {
-    const Projects = [
+    const Project = [
         {
             title:"Little Library",
             image:"",
@@ -55,7 +56,7 @@ const Portfolio = () => {
                 <h2 className="">Projects</h2>
                 
                 <div class="">
-                    {projects.map(work=><Project title={work.title} image={work.image} imageAlt={work.imageAlt} gitHub={work.repo} live={work.url}/>)}
+                    {Projects.map(work=><Project title={work.title} image={work.image} imageAlt={work.imageAlt} gitHub={work.repo} live={work.url}/>)}
 
                 </div>
             </div>

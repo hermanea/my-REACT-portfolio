@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 const Header = () => {
     return (
         <div className="header">
-            <h1>Jackie Lee</h1>
+            <h1>Evan Herman</h1>
             <div className="nav">
                 <NavLink className= {({isActive}) => {
                    if(isActive){

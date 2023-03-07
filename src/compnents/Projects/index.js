@@ -1,4 +1,5 @@
-import './style.css'
+// import React from 'react'
+// import './style.css'
 
 const Projects = ({title, image, imageAlt, repo, url}) => {
     

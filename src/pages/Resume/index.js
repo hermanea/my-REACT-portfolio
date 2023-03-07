@@ -1,5 +1,5 @@
-import 'style.css'
-import resume from './Resume_Evan_Herman.pdf'
+import './style.css'
+import resume from './Resume_Herman_Evan.pdf'
 
 const Resume = () => {
 

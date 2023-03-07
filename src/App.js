@@ -1,12 +1,12 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import React, {compnents} from 'react';
+import { BrowserRouter as Router,Routes,Route } from 'react-router-dom';
 import Header from "./compnents/Header";
 import Footer from "./compnents/Footer";
 import AboutMe from "./pages/AboutMe";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
 import Resume from "./pages/Resume";
-import './App.css';
+import './App.js';
 
 function App() {
   return (
