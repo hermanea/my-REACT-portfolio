@@ -1,13 +1,12 @@
 import React from 'react'
 import './style.css'
 
-const Footer = (props) => {
+const Footer = () => {
     return (
         <footer className='footer'>
         
         </footer>
     )
-
 }
 
 export default Footer
