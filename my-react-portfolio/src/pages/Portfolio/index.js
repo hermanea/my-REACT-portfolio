@@ -1,54 +1,65 @@
 import 'style.css'
-import Projects from '../../components/Projects'
+import Projects from "../../compnents/Projects"
 
 const Portfolio = () => {
     const Projects = [
         {
-            title:"",
+            title:"Little Library",
             image:"",
-            imageAlt:"",
-            repo:"",
-            url:""
+            imageAlt:"image of little library app",
+            repo:"https://github.com/HowardLee2022/Little-Library",
+            url:"https://littlelibrary.herokuapp.com/"
         },
         {
-            title:"",
+            title:"Pokemon Deck Generator",
             image:"",
-            imageAlt:"",
-            repo:"",
-            url:""
+            imageAlt:"image of pokemon deck generator app",
+            repo:"https://github.com/JJackielee/pokemon-deck-generator/",
+            url:"https://jjackielee.github.io/pokemon-deck-generator/"
         },
         {
-            title:"",
+            title:"Note Taker",
             image:"",
-            imageAlt:"",
-            repo:"",
-            url:""
+            imageAlt:"image of note taker app",
+            repo:"https://github.com/hermanea/note-taker",
+            url:"https://notezfordayz.herokuapp.com/"
         },
         {
-            title:"",
+            title:"Quiz Time",
             image:"",
-            imageAlt:"",
-            repo:"",
-            url:""
+            imageAlt:"image of quiz time app",
+            repo:"https://github.com/hermanea/quiz-time",
+            url:"https://hermanea.github.io/quiz-time/"
         },
         {
-            title:"",
+            title:"Work Scheduler",
             image:"",
-            imageAlt:"",
-            repo:"",
-            url:""
+            imageAlt:"image of work scheduler app",
+            repo:"https://github.com/hermanea/work-scheduler-challenge05",
+            url:"https://hermanea.github.io/work-scheduler-challenge05/"
         },
         {
-            title:"",
+            title:"Five Day Forecast",
             image:"",
-            imageAlt:"",
-            repo:"",
-            url:""
+            imageAlt:"image of five day forecast app",
+            repo:"https://github.com/hermanea/five-day-forecast-challenge06",
+            url:"https://hermanea.github.io/five-day-forecast-challenge06/"
         }
     ]
 
     return (
+        <div class="background">
+            <div class="portfolioContainer">
+                <br>
+                </br>
+                <h2 className="">Projects</h2>
+                
+                <div class="">
+                    {projects.map(work=><Project title={work.title} image={work.image} imageAlt={work.imageAlt} gitHub={work.repo} live={work.url}/>)}
 
+                </div>
+            </div>
+        </div>
     )
 }
 

@@ -1,12 +1,43 @@
 import React from 'react';
+import "./style.css";
+import { NavLink } from "react-router-dom";
 
-const Header = (props) => {
-    const [first, setfirst] = useState(second)
-
-
-
-    return ()
-
+const Header = () => {
+    return (
+        <div className="header">
+            <h1>Jackie Lee</h1>
+            <div className="nav">
+                <NavLink className= {({isActive}) => {
+                   if(isActive){
+                    return 'active' 
+                   } else {
+                    return 'notActive'
+                   };
+                }} to="/my-react-portfolio/">About Me</NavLink>
+                <NavLink className= {({isActive}) => {
+                   if(isActive){
+                    return 'active' 
+                   } else {
+                    return 'notActive'
+                   };
+                }} to="/react-portfolio/portfolio">Portfolio</NavLink>
+                <NavLink className= {({isActive}) => {
+                   if(isActive){
+                    return 'active' 
+                   } else {
+                    return 'notActive'
+                   };
+                }} to="/react-portfolio/contact">Contact</NavLink>
+                <NavLink className= {({isActive}) => {
+                   if(isActive){
+                    return 'active' 
+                   } else {
+                    return 'notActive'
+                   };
+                }} to="/react-portfolio/resume">Resume</NavLink>
+            </div>
+        </div>
+    )
 }
 
 export default Header
